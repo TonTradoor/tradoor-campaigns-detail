@@ -1,0 +1,14 @@
+.nav {
+    height: 52px;
+    display: flex;
+    position: relative;   
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    justify-content: center;
+    
+    .back {
+        position: absolute;
+        left: 0;
+    }
+}

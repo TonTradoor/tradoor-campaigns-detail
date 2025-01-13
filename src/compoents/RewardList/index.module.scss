@@ -1,0 +1,29 @@
+.container {
+
+  .title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .list {
+
+    .thead {
+      color: #848E9C;
+      font-size: 12px;
+      font-weight: 500;
+      display: flex;
+
+
+      .item {
+        flex: 1;
+        &:nth-child(2) {
+          flex: 1.5;
+        }
+        &:last-child {
+          text-align: right;
+        }
+      }
+
+    }
+  }
+}

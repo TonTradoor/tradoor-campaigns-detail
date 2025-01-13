@@ -1,0 +1,36 @@
+.container {
+  background-color: #191B20;
+  width: 100%;
+
+  .banner-wrap {
+    border-radius: 16px;
+    background-color: red;
+    height: 185px;
+    width: 100%;
+  }
+
+  .detail-info {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    padding: 16px 0px;
+    
+    .title {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .date {
+      margin-top: 4px;
+      color: #848E9C;
+      font-size: 12px;
+    }
+
+    .desc {
+      color: #E5EAEE;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

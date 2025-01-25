@@ -4,7 +4,6 @@ import { initReactI18next } from 'react-i18next';
 import { resources } from './index';
 
 i18n.use(Backend).use(initReactI18next);
-console.log("[[resources]]", resources)
 
 if (!i18n.isInitialized) {
   i18n.init({
@@ -12,7 +11,7 @@ if (!i18n.isInitialized) {
     fallbackLng: 'en',
     lng: 'en',
     // lng: 'zh_CN',
-    supportedLngs: ['en', 'ru'],
+    supportedLngs: ['en', 'ru', 'ko'],
     // debug: true,
     // partialBundledLanguages: true,
     interpolation: {

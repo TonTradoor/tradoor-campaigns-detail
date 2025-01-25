@@ -12,11 +12,11 @@
 }
 
 html,body {
-  font-family: Plus Jakarta Sans;
+  font-family: Plus Jakarta Sans !important;
 }
 
 body {
   min-height: 100vh;
-  background: #191B20;
+  background: #191B20 !important;
   padding: 0px 16px;
 }

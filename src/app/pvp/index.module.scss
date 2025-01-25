@@ -1,12 +1,18 @@
 .container {
   background-color: #191B20;
   width: 100%;
+  text-overflow: ellipsis;
+  word-break: break-all;
 
   .banner-wrap {
     border-radius: 16px;
-    background-color: red;
     height: 185px;
     width: 100%;
+    overflow: hidden;
+    img {
+      height: 100%;
+      width: 100%;
+    }
   }
 
   .detail-info {
@@ -31,6 +37,18 @@
       color: #E5EAEE;
       font-size: 14px;
       line-height: 20px;
+    }
+  
+  }
+  .link-info {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding: 16px 0px;
+    .link {
+      color: #336df4;
+      text-decoration: underline;
+      font-size: 12px;
     }
   }
 }

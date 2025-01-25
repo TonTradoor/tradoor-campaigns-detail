@@ -1,7 +1,7 @@
 import styles from "./index.module.scss";
-import No1Svg from "@/assets/no1.svg";
-import No2Svg from "@/assets/no2.svg";
-import No3Svg from "@/assets/no3.svg";
+// import No1Svg from "@/assets/no1.svg";
+// import No2Svg from "@/assets/no2.svg";
+// import No3Svg from "@/assets/no3.svg";
 import { useTranslation } from "react-i18next";
 
 const RewardList = () => {

@@ -14,6 +14,7 @@ const Nav = ({ title }: IProps) => {
         width={24}
         height={24}
         alt=""
+        onClick={() => window.history.back()}
         className={styles["back"]}
       />
       {title}

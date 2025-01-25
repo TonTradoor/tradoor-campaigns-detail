@@ -1,11 +1,5 @@
-import Nav from "@/compoents/Nav";
-
-const Detail = () => {
-  return (
-    <div>
-      <Nav />
-    </div>
-  );
+import { Suspense } from "react";
+const Page = () => {
+  return <Suspense>231</Suspense>;
 };
-
-export default Detail;
+export default Page;

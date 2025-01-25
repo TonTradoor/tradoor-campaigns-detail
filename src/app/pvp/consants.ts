@@ -32,7 +32,7 @@ export const Language_Data_Map = {
   }
 }
 
-export const Link = {
+export const LINK = {
   TEL: 'http://t.me/tradoor_pvp_bot',
   DOC: 'https://drive.google.com/file/d/1DZ-zI-iwTdq-ivgl5YXC1j2h5P26fddY/view?usp=drive_link',
   RULE: 'https://drive.google.com/file/d/1hnTHIgSfQ4gC8zZVdcpOOKAZMrdTFrpY/view?usp=drive_link'

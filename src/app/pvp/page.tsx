@@ -10,6 +10,7 @@ import Nav from "@/compoents/Nav";
 import { useTranslation } from "react-i18next";
 import { useMemo } from "react";
 import useWindowSize from "@/hooks/useWindowResize";
+import { LINK } from "./consants";
 const Detail = () => {
   // const langauge = useContext(LanguageProviderContext);
   const { i18n, t } = useTranslation();
@@ -37,9 +38,15 @@ const Detail = () => {
           <p className={styles["desc"]}>{t("pvp_desc2")}</p>
         </div>
         <div className={styles["link-info"]}>
-          <a className={styles["link"]}>- {t("pvp_c1")}</a>
-          <a className={styles["link"]}>- {t("pvp_c2")}</a>
-          <a className={styles["link"]}>- {t("pvp_c3")}</a>
+          <a className={styles["link"]} href={LINK.TEL} target="_blank">
+            - {t("pvp_c1")}
+          </a>
+          <a className={styles["link"]} href={LINK.DOC} target="_blank">
+            - {t("pvp_c2")}
+          </a>
+          <a className={styles["link"]} href={LINK.RULE} target="_blank">
+            - {t("pvp_c3")}
+          </a>
         </div>
       </div>
     </>

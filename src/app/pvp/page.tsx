@@ -9,10 +9,11 @@ import RuBanner from "./assets/ru.jpg";
 import Nav from "@/compoents/Nav";
 import { useTranslation } from "react-i18next";
 import { useMemo } from "react";
+import useWindowSize from "@/hooks/useWindowResize";
 const Detail = () => {
   // const langauge = useContext(LanguageProviderContext);
   const { i18n, t } = useTranslation();
-
+  const { isMobileStyle } = useWindowSize();
   const memoImg = useMemo(() => {
     if (i18n.language === "ro") return RuBanner;
     if (i18n.language === "ko") return KoBanner;
@@ -23,7 +24,10 @@ const Detail = () => {
     <>
       <Nav title={t("pvp_title")} />
       <div className={styles["container"]}>
-        <div className={styles["banner-wrap"]}>
+        <div
+          className={styles["banner-wrap"]}
+          style={{ height: !isMobileStyle ? "400px" : "185px" }}
+        >
           <Image src={memoImg} alt="" />
         </div>
         <div className={styles["detail-info"]}>

@@ -1,3 +1,5 @@
+"use clinet";
+
 import { Spinner, Center, CenterProps } from "@chakra-ui/react";
 
 const Loading = (prop: CenterProps) => {

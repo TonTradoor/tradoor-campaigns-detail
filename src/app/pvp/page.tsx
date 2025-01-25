@@ -9,7 +9,6 @@ import RuBanner from "./assets/ru.jpg";
 import Nav from "@/compoents/Nav";
 import { useTranslation } from "react-i18next";
 import { useMemo } from "react";
-
 const Detail = () => {
   // const langauge = useContext(LanguageProviderContext);
   const { i18n, t } = useTranslation();

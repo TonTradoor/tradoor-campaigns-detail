@@ -30,6 +30,16 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <meta charSet="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="../assets/logo.svg" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
+        />
+        <title>Tradoor: Trade crypto on the fastest DEX on TON</title>
+      </head>
+
       <Suspense>
         <body>
           <ChakraProvider>

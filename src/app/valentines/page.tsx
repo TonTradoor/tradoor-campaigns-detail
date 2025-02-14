@@ -72,11 +72,11 @@ const Detail = () => {
                 </p>
                 <p className={styles["desc"]}>
                   - Самый высокий PnL среди победивших сделок получит приз за
-                  "лучший PnL".
+                  &#34;лучший PnL&#34;.
                 </p>
                 <p className={styles["desc"]}>
                   - Самый низкий PnL среди неудачных сделок получит приз за
-                  "худший PnL".
+                  &#34;худший PnL&#34;.
                 </p>
               </div>
               <div>
@@ -207,7 +207,7 @@ const Detail = () => {
                 $500!
               </p>
               <p className={styles["desc"]}>
-                While others waste money on overpriced dinners, you're here
+                While others waste money on overpriced dinners, you&#39;re here
                 making it all on Tradoor.
               </p>
               <div>
@@ -236,18 +236,19 @@ const Detail = () => {
                   - Make a trade on Tradoor Perps.{" "}
                 </p>
                 <p className={styles["desc"]}>
-                  - The highest PnL from all winning trades secures the "best
-                  PnL" prize.{" "}
+                  - The highest PnL from all winning trades secures the
+                  &#34;best PnL&#34; prize.
                 </p>
                 <p className={styles["desc"]}>
-                  - The lowest PnL from all failed trades secures the "worst
-                  PnL" prize.
+                  - The lowest PnL from all failed trades secures the &#34;worst
+                  PnL&#34; prize.
                 </p>
               </div>
               <div>
                 <p className={styles["sub-title"]}>🎟 Bonus: Lucky Draw </p>
                 <p className={styles["desc"]}>
-                  Skip the romance, chase the rewards - if you've got the guts.
+                  Skip the romance, chase the rewards - if you&#39;ve got the
+                  guts.
                 </p>
                 <p className={styles["desc"]}>
                   Anyone who trades $10,000 volume during the event gets one

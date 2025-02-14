@@ -13,7 +13,7 @@ const Detail = () => {
   const { i18n, t } = useTranslation();
   const { isMobileStyle } = useWindowSize();
   const memoImg = useMemo(() => {
-    if (i18n.language === "ro") return RuBanner;
+    if (i18n.language === "ru") return RuBanner;
     if (i18n.language === "ko") return KoBanner;
     return EnBanner;
   }, [i18n.language]);
@@ -31,7 +31,7 @@ const Detail = () => {
         <div className={styles["detail-info"]}>
           <p className={styles["title"]}>{t("valentines_title")}</p>
           <p className={styles["date"]}>{t("valentines_date")}</p>
-          {i18n.language === "ro" ? (
+          {i18n.language === "ru" ? (
             <>
               <p className={styles["desc"]}>
                 Love and Leverage: $5 для новых пользователей, $500 для

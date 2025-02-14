@@ -16,7 +16,7 @@ const Detail = () => {
   const { i18n, t } = useTranslation();
   const { isMobileStyle } = useWindowSize();
   const memoImg = useMemo(() => {
-    if (i18n.language === "ro") return RuBanner;
+    if (i18n.language === "ru") return RuBanner;
     if (i18n.language === "ko") return KoBanner;
     return EnBanner;
   }, [i18n.language]);

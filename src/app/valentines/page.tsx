@@ -98,7 +98,7 @@ const Detail = () => {
                   - Ваучеры на опционы: $5, $10 или $50
                 </p>
                 <p className={styles["desc"]}>
-                  - Скидки на торговые комиссии: 50% или 80%
+                  - Скидки на торговые комиссии: 50% или 20%
                 </p>
                 <p className={styles["desc"]}>
                   - Награды в USDT: $5, $50, $100 или $500
@@ -182,7 +182,7 @@ const Detail = () => {
                 <p className={styles["sub-title"]}>🏆 럭키 드로우 경품:</p>
                 <p className={styles["desc"]}>•옵션 바우처: $5, $10, $50</p>
                 <p className={styles["desc"]}>
-                  •거래 수수료 할인: 50% 또는 80%
+                  •거래 수수료 할인: 50% 또는 20%
                 </p>
                 <p className={styles["desc"]}>
                   •USDT 보상: $5, $50, $100, $500
@@ -262,7 +262,7 @@ const Detail = () => {
                   - Options Vouchers: $5, $10, or $50
                 </p>
                 <p className={styles["desc"]}>
-                  - Trading Fee Discounts: 50% off or 80% off
+                  - Trading Fee Discounts: 50% off or 20% off
                 </p>
                 <p className={styles["desc"]}>
                   - USDT Rewards: $5, $50, $100 or $500

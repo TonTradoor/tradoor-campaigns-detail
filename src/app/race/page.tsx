@@ -31,20 +31,28 @@ const Detail = () => {
         <div className={styles["detail-info"]}>
           <p className={styles["title"]}>{t("power_race_title")}</p>
           <p className={styles["date"]}>{t("power_race_date")}</p>
-          <p className={styles["desc"]}>{t("power_race_phase1_title")}</p>
+          <p className={styles["desc"]} style={{ fontWeight: 700 }}>
+            {t("power_race_phase1_title")}
+          </p>
           <p className={styles["desc"]}>{t("power_race_phase1_desc")}</p>
           <p className={styles["desc"]}>{t("power_race_phase1_top1")}</p>
           <p className={styles["desc"]}>{t("power_race_phase1_top2")}</p>
           <p className={styles["desc"]}>{t("power_race_phase1_top3")}</p>
-          <p className={styles["desc"]}>{t("power_race_phase2_title")}</p>
+          <p className={styles["desc"]} style={{ fontWeight: 700 }}>
+            {t("power_race_phase2_title")}
+          </p>
           <p className={styles["desc"]}>{t("power_race_phase2_desc")}</p>
           <p className={styles["desc"]}>{t("power_race_phase2_top1")}</p>
           <p className={styles["desc"]}>{t("power_race_phase2_top2")}</p>
           <p className={styles["desc"]}>{t("power_race_phase2_top3")}</p>
-          <p className={styles["desc"]}>{t("power_race_phase3_title")}</p>
+          <p className={styles["desc"]} style={{ fontWeight: 700 }}>
+            {t("power_race_phase3_title")}
+          </p>
           <p className={styles["desc"]}>{t("power_race_phase3_desc")}</p>
           <p className={styles["desc"]}>{t("power_race_phase3_top1")}</p>
-          <p className={styles["desc"]}>{t("power_race_bonus")}</p>
+          <p className={styles["desc"]} style={{ fontWeight: 700 }}>
+            {t("power_race_bonus")}
+          </p>
           <p className={styles["desc"]}>{t("power_race_bonus_desc")}</p>
           <p className={styles["desc"]}>{t("power_race_desc1")}</p>
           <p className={styles["desc"]}>{t("power_race_desc2")}</p>

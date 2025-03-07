@@ -3,7 +3,7 @@
 import styles from "./index.module.scss";
 import Image from "next/image";
 import EnBanner from "./assets/en.png";
-import KoBanner from "./assets/ru.png";
+import KoBanner from "./assets/ko.png";
 import RuBanner from "./assets/ru.png";
 import Nav from "@/compoents/Nav";
 import { useTranslation } from "react-i18next";
@@ -48,6 +48,8 @@ const Detail = () => {
           <p className={styles["desc"]}>{t("power_race_bonus_desc")}</p>
           <p className={styles["desc"]}>{t("power_race_desc1")}</p>
           <p className={styles["desc"]}>{t("power_race_desc2")}</p>
+          <p className={styles["desc"]}>{t("power_race_desc3")}</p>
+          <p className={styles["desc"]}>{t("power_race_desc4")}</p>
         </div>
       </div>
     </>

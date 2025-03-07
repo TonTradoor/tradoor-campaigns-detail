@@ -9,7 +9,7 @@
   "valentines_title": "Love & Leverage",
   "valentines_date": "Time(UTC): 2025/02/14 10:00 - 2025/02/20 10:00",
   "power_race_title": "The Power 5 Profit Race - Four Ways to Win",
-  "power_race_date": "Time(UTC+8): 2025/03/03 13:20 - 2025/03/09 20:00",
+  "power_race_date": "Time(UTC): 2025/03/03 05:20 - 2025/03/09 12:00",
   "power_race_phase1_title": "Phase 1: The Quick Strike (March 3 - March 5)",
   "power_race_phase1_desc": "Top 3 traders with the highest PnL with trades in BTC, ETH, SOL, XRP or ADA in the first 3 days take home:",
   "power_race_phase1_top1": "🥇 $50 + 500 $DOOR points",
@@ -26,5 +26,7 @@
   "power_race_bonus": "Bonus: The Referral Payday",
   "power_race_bonus_desc": "Invite your friends to trade in The Power 5 Profit Race during this time period, and you’ll earn 50% of their trading fees. The more they trade, the more you earn.",
   "power_race_desc1": "- Competition closes March 9, 12AM UTC. Only $BTC, $ETH, $XRP, $SOL, and $ADA trades count.",
-  "power_race_desc2": "- Discuss strategies, flex your gains, and trade with the best in Tradoor Chat."
+  "power_race_desc2": "- Discuss strategies, flex your gains, and trade with the best in Tradoor Chat.",
+  "power_race_desc3": "",
+  "power_race_desc4": ""
 }

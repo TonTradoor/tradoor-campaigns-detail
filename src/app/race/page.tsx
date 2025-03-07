@@ -20,7 +20,7 @@ const Detail = () => {
 
   return (
     <>
-      <Nav title={t("power_race_title")} />
+      <Nav title={t("power_race_short_title")} />
       <div className={styles["container"]}>
         <div
           className={styles["banner-wrap"]}

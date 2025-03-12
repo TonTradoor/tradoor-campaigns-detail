@@ -29,5 +29,7 @@
   "power_race_desc1": "- Конкурс закрывается 9 марта в 00:00 UTC. В зачет идут только сделки по $BTC, $ETH, $XRP, $SOL и $ADA.",
   "power_race_desc2": "- Обсуждай стратегии, хвастайся профитом и торгуй с лучшими в Tradoor Chat.",
   "power_race_desc3": "",
-  "power_race_desc4": ""
+  "power_race_desc4": "",
+  "highest_pnl_title": "Highest PnL",
+  "highest_pnl_date": "12 март (12:00 UTC) по 16 март (12:00 UTC)"
 }

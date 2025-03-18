@@ -29,7 +29,10 @@ const Detail = () => {
           <Image src={Banner} alt="" />
         </div>
         <div className={styles["detail-info"]}>
-          <p className={styles["title"]}>Degen Drop</p>
+          <div className={styles["center"]}>
+            <p className={styles["title"]}>Degen Drop</p>
+            <span className={styles["tag"]}>{t("month_tag")}</span>
+          </div>
           <p className={styles["date"]}>
             {t("date")}(UTC): 20{year}/{month}/01 00:00:00 - 20{year}/{month}/
             {endDate.includes(month) ? "31" : month === "02" ? "28" : "30"}{" "}

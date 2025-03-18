@@ -6,9 +6,17 @@ import Banner from "./assets/banner.jpg";
 import Nav from "@/compoents/Nav";
 import { useTranslation } from "react-i18next";
 import useWindowSize from "@/hooks/useWindowResize";
+import { useSearchParams } from "next/navigation";
+
+const endDate = ["01", "03", "05", "07", "08", "10", "12"];
 const Detail = () => {
-  const { i18n } = useTranslation();
+  const searchParams = useSearchParams();
+  const date = searchParams.get("date") ?? "2503";
+  const { i18n, t } = useTranslation();
   const { isMobileStyle } = useWindowSize();
+
+  const year = date.slice(0, 2);
+  const month = date.slice(2);
 
   return (
     <>
@@ -21,6 +29,12 @@ const Detail = () => {
           <Image src={Banner} alt="" />
         </div>
         <div className={styles["detail-info"]}>
+          <p className={styles["title"]}>Degen Drop</p>
+          <p className={styles["date"]}>
+            {t("date")}(UTC): 20{year}/{month}/01 00:00:00 - 20{year}/{month}/
+            {endDate.includes(month) ? "31" : month === "02" ? "28" : "30"}{" "}
+            23:59:00
+          </p>
           {i18n.language === "ko" ? (
             <>
               <p className={styles["desc"]}>
